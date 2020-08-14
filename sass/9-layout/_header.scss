@@ -1,0 +1,44 @@
+header {
+  height: 100vh;
+
+  background: url(/img/bg.jpg) no-repeat;
+
+}
+
+.nav {
+  height: 15%;
+  display: flex;
+  align-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 45px 0;
+
+      &__logo {
+      max-width: 25%;
+    }
+
+    &__menu { 
+
+    }
+
+    &__items {
+
+      display: flex;
+    }
+
+    &__item {
+      display: inline-block;
+      padding: 0px 18px
+    }
+
+    &__link {
+      font-size: 1.6rem;
+      display: inline-block;
+      text-transform: uppercase;
+      padding: 7px 0;
+      text-decoration: none;
+      color: #fff;
+    }
+}
