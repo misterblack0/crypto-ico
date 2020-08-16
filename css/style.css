@@ -64,16 +64,49 @@ html {
   font-size: 62.5%;
   scroll-behavior: smooth; }
 
+.banner__main-img {
+  position: relative;
+  animation: float 3s linear infinite; }
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0px); }
+  50% {
+    transform: translatey(-2rem); } }
+
 body {
   background: #4a28a9; }
 
 body {
   font-family: "Rubik", sans-serif;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #fff; }
 
+.banner__title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+  .banner__title span {
+    font-weight: 400; }
+
 .container {
   padding: 0 20%; }
+
+.btn {
+  width: 10rem;
+  color: #fff;
+  background-color: #412394;
+  padding: 1.4rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease 0s;
+  display: block;
+  text-decoration: none;
+  text-align: center; }
+
+.btn:hover {
+  background: #281266; }
 
 header {
   height: 100vh;
@@ -83,17 +116,20 @@ header {
 .nav {
   height: 15%;
   display: flex;
-  align-content: center;
   width: 100%;
   padding: 4.5rem 0; }
   .nav__logo {
     flex: 0 0 25%;
     max-width: 25%; }
+  .nav__logo a img {
+    height: auto;
+    max-width: 80%; }
   .nav__menu {
     flex: 0 0 75%;
     max-width: 75%;
     display: flex;
-    justify-content: flex-end; }
+    justify-content: flex-end;
+    align-items: center; }
   .nav__items {
     display: flex; }
   .nav__item {
@@ -103,6 +139,35 @@ header {
     font-size: 1.6rem;
     display: inline-block;
     text-transform: uppercase;
-    padding: 7px 0;
+    padding: 0.3rem 0;
     text-decoration: none;
-    color: #fff; }
+    color: #fff;
+    position: relative; }
+  .nav__link:before, .nav__link:after {
+    content: "";
+    position: absolute;
+    transition: transform 0.5s ease; }
+  .nav__link:before {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background: #fff;
+    transform: scaleX(0); }
+  .nav__link:hover:before {
+    transform: scaleX(1); }
+
+.banner {
+  height: 100%;
+  padding-top: 17rem;
+  display: flex; }
+  .banner__details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .banner__main-img {
+    width: 50%; }
+
+.banner__details p {
+  margin: 2rem 0; }

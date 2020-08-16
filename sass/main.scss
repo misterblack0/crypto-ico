@@ -6,17 +6,28 @@
   
 // 2. Design Tokens
 @import
+  "2-design-tokens/animations",
   "2-design-tokens/colors",
   "2-design-tokens/fonts",
   "2-design-tokens/media-queries",
   "2-design-tokens/spacing",
   "2-design-tokens/typography";
 
+ // 5. Elements
+  @import
+  "5-elements/headings";
 
 // 6. Skeleton
 @import
   "6-skeleton/layouts";
 
+// 7. Components
+@import
+  "7-components/button";
+
   // 9. Layout
 @import
   "9-layout/header";
+
+@import
+"shame";

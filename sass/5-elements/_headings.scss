@@ -1,0 +1,9 @@
+.banner__title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  & span {
+    font-weight: 400;
+  }
+}
