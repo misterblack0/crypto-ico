@@ -35,7 +35,7 @@ header {
 
   &__item {
     display: inline-block;
-    padding: 0px 18px;
+    padding: 0 1.8rem;
   }
 
   &__link {
@@ -82,5 +82,48 @@ header {
 
   &__main-img {
     width: 50%;
+  }
+}
+
+.about {
+  & > div {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  &__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 5rem;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__list-item {
+    font-size: 1.6rem;
+    margin-bottom: 1.7rem;
+    position: relative;
+    padding-left: 5rem;
+    line-height: 3.9rem;
+  }
+
+  &__list-item:before {
+    background-image: url(/img/list-icon.png);
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    left: 0;
+    height: 3.9rem;
+    width: 3.9rem;
+    position: absolute;
+    top: 0;
+  }
+
+  &__main-img {
+    width: 80%;
   }
 }

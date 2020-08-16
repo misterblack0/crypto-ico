@@ -1,3 +1,10 @@
+.heading-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
 .banner__title {
   font-size: 4rem;
   font-weight: 700;
@@ -6,4 +13,16 @@
   & span {
     font-weight: 400;
   }
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  line-height: 4rem;
+  margin-bottom: 1rem;
+}
+
+.secondary-title {
+  font-size: 2rem;
+  color: #01e8fe;
 }
