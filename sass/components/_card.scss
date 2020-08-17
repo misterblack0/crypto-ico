@@ -1,0 +1,63 @@
+@media (min-width: 800px) {
+  .flip-card {
+    height: 7rem;
+    perspective: 1000px;
+    margin-bottom: 6rem;
+  }
+  .flip-card .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card .inner .front,
+  .flip-card .inner .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+
+    padding: 3rem 0;
+  }
+  .flip-card .inner .front {
+    background-color: #3d1f94;
+  }
+  .flip-card .inner .back {
+    background-color: #3d1f94;
+    transform: rotateY(180deg);
+  }
+  .flip-card:hover .inner {
+    transform: rotateY(180deg);
+  }
+}
+
+.card {
+  &__icon-container {
+    display: block;
+    margin-left: 3rem;
+    width: 8rem;
+    height: 8rem;
+  }
+
+  &__icon {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  &__details {
+    margin-left: 2.5rem;
+
+    & p {
+      padding-top: 0.5rem;
+    }
+  }
+
+  &__back-details {
+    padding: 3rem;
+  }
+}

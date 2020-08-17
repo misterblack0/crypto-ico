@@ -128,9 +128,60 @@ body {
 .btn:hover {
   background: #281266; }
 
+@media (min-width: 800px) {
+  .flip-card {
+    height: 7rem;
+    perspective: 1000px;
+    margin-bottom: 6rem; }
+  .flip-card .inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d; }
+  .flip-card .inner .front,
+  .flip-card .inner .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 3rem 0; }
+  .flip-card .inner .front {
+    background-color: #3d1f94; }
+  .flip-card .inner .back {
+    background-color: #3d1f94;
+    transform: rotateY(180deg); }
+  .flip-card:hover .inner {
+    transform: rotateY(180deg); } }
+
+.card__icon-container {
+  display: block;
+  margin-left: 3rem;
+  width: 8rem;
+  height: 8rem; }
+
+.card__icon {
+  width: 8rem;
+  height: 8rem; }
+
+.card__details {
+  margin-left: 2.5rem; }
+  .card__details p {
+    padding-top: 0.5rem; }
+
+.card__back-details {
+  padding: 3rem; }
+
 .flow {
   padding-top: 10rem;
   padding-bottom: 10rem; }
+
+.s-flow {
+  padding-top: 4rem; }
 
 header {
   height: 100vh;
@@ -227,6 +278,12 @@ header {
 
 .about__main-img {
   width: 80%; }
+
+@media (min-width: 800px) {
+  .services__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 3rem; } }
 
 .banner__details p {
   margin: 2rem 0; }
