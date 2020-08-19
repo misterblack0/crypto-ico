@@ -245,6 +245,15 @@ body {
     justify-content: center;
     padding-top: 1rem; }
 
+.team-card:hover {
+  background: #331781; }
+
+.team-card .team-card__img-container img {
+  filter: grayscale(100%); }
+
+.team-card:hover .team-card__img-container img {
+  filter: grayscale(0%); }
+
 .icon {
   width: 2.5rem;
   height: 2.5rem;
