@@ -13,6 +13,10 @@
   "design-tokens/spacing",
   "design-tokens/typography";
 
+  // 3. Skeleton
+  @import
+  "skeleton/grid";
+
  // 5. Elements
   @import
   "elements/headings";
@@ -24,11 +28,16 @@
 // 7. Components
 @import
   "components/button",
-  "components/card";
+  "components/card",
+  "components/icon";
 
   // 7. Utilities
   @import
   "utilities/flow";
+
+  // 8. Tools
+  @import
+  "tools/center";
 
   // 9. Layout
 @import

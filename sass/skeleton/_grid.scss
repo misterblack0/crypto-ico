@@ -1,0 +1,15 @@
+@media (min-width: 800px) {
+  .services__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .team__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 3rem;
+  }
+}

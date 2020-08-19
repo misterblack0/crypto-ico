@@ -128,13 +128,7 @@ header {
   }
 }
 
-@media (min-width: 800px) {
-  .services__cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-gap: 3rem;
-  }
-}
+
 
 .token-sale {
   width: 100%;
@@ -151,7 +145,6 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 5rem;
 
     & p {
       margin: 1rem 0;
@@ -181,9 +174,9 @@ header {
   }
 
   &__chart {
-    display: flex;
-    align-items: center;
     width: 80%;
+    margin-top: 5rem;
+    margin-left: 5rem;
   }
 }
 
@@ -191,4 +184,14 @@ canvas {
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  background: url(/img/team-bg.png) no-repeat scroll center center #3d1f94;
+
+  & div {
+    width: 100%;
+  }
 }

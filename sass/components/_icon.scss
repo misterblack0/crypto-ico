@@ -1,0 +1,13 @@
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: #784cf2;
+    transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+}
+
+.icon:hover {
+    fill: #fff;
+}
