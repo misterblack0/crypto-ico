@@ -416,5 +416,8 @@ canvas {
   .team div {
     width: 100%; }
 
+.contact {
+  background: url(/img/) no-repeat scroll center center #3d1f94; }
+
 .banner__details p {
   margin: 2rem 0; }
