@@ -1,0 +1,15 @@
+.contact__form {
+  width: 70%;
+  padding: 0 1.5rem;
+  &--input {
+    background: #4a28a9;
+    height: 5rem;
+    color: #fff;
+    padding-left: 1.5rem;
+    border-radius: 0.25rem;
+    overflow: visible;
+    border: none;
+    outline: none;
+    transition: border-color 0.15s ease-in-out box-shadow 0.15s ease-in-out;
+  }
+}

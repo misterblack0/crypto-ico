@@ -1,5 +1,5 @@
 .btn {
-  width: 10rem;
+  width: 12.5rem;
   color: #fff;
   background-color: #412394;
   padding: 1.4rem;
@@ -8,6 +8,19 @@
   display: block;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
+
+  &-white {
+    color: #3d1f94;
+    background: #fff;
+    border: none;
+    outline: none;
+  }
+
+  &-white:hover {
+    color: #fff;
+    background: #331781;
+  }
 }
 
 .btn:hover {

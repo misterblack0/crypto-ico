@@ -1,0 +1,25 @@
+.contact {
+  &__box {
+    width: 30%;
+    //  background-color: darkkhaki;
+
+    & ul li:not(:last-child) {
+      border-bottom: 1px solid #4a28a9;
+      margin-bottom: 30px;
+      padding-bottom: 30px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &--icon {
+      margin-right: 10px;
+    }
+
+    &--content h3 {
+      font-weight: 400;
+    }
+  }
+}

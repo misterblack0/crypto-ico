@@ -13,3 +13,16 @@
     grid-gap: 3rem;
   }
 }
+
+@media (min-width: 800px) {
+  .contact__form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  .contact__form--input,
+  .contact__form button {
+    grid-column: 1 / 3;
+  }
+}
