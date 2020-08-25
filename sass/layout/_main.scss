@@ -199,3 +199,10 @@ canvas {
 .contact {
   background: url(/img/) no-repeat scroll center center #3d1f94;
 }
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

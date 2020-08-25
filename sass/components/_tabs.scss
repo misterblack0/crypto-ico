@@ -1,0 +1,28 @@
+.tabs {
+  margin: 2rem 30rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tablinks {
+  font-size: 1.5rem;
+  background-color: #4a28a9;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  padding: 1rem 2.5rem;
+  border: 2px solid #7049df;
+}
+
+.tabcontent {
+  display: none;
+  animation: fadeEffect 1s;
+}
+
+.tabs button.active {
+  background-color: #3d1f94;
+  border: none;
+  transition: all 0.4s;
+}
