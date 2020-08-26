@@ -118,13 +118,13 @@ body {
     grid-gap: 3rem; } }
 
 @media (min-width: 800px) {
+  .contact__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5rem; }
   .contact__form {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem; }
-  .contact__form--input,
-  .contact__form button {
-    grid-column: 1 / 3; } }
+    grid-gap: 0.7rem; } }
 
 .heading-container {
   display: flex;
@@ -290,6 +290,12 @@ body {
 .icon:hover {
   fill: #fff; }
 
+.icon-footer {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: #fff;
+  padding-left: 0.5rem; }
+
 .accordion-container {
   display: flex;
   flex-direction: column;
@@ -362,26 +368,27 @@ body {
   transition: all 0.4s; }
 
 .contact__box {
-  width: 30%; }
+  width: 42%; }
   .contact__box ul li:not(:last-child) {
     border-bottom: 1px solid #4a28a9;
-    margin-bottom: 30px;
-    padding-bottom: 30px; }
+    margin-bottom: 3rem;
+    padding-bottom: 3rem; }
 
 .contact__item {
   display: flex;
   align-items: center; }
   .contact__item--icon {
-    margin-right: 10px; }
+    margin-right: 1rem; }
   .contact__item--content h3 {
     font-weight: 400; }
 
 .contact__form {
-  width: 70%;
+  width: 100%;
   padding: 0 1.5rem; }
   .contact__form--input {
     background: #4a28a9;
     height: 5rem;
+    width: 100%;
     color: #fff;
     padding-left: 1.5rem;
     border-radius: 0.25rem;
@@ -389,6 +396,17 @@ body {
     border: none;
     outline: none;
     transition: border-color 0.15s ease-in-out box-shadow 0.15s ease-in-out; }
+
+footer {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5rem; }
+  footer p {
+    margin-left: 4rem; }
+  footer__social-media {
+    display: flex; }
 
 .flow {
   padding-top: 10rem;
@@ -400,11 +418,38 @@ body {
 .center {
   text-align: center; }
 
+.banner__details p {
+  margin: 2rem 0; }
+
 header {
   height: 100vh;
   width: 100wh;
   background: url(/img/bg.jpg) no-repeat; }
 
+/* Sticky navbar */
+/* .nav {
+  position: absolute;
+	top: 0;
+  z-index: 1;
+  
+
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s; 
+}
+
+.nav-sticky {
+	background: #412394;
+	position: fixed;
+	top: 0;
+
+
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+	-o-box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.15);
+} */
 .nav {
   height: 15%;
   display: flex;
@@ -551,6 +596,3 @@ canvas {
     margin: 0 1.5rem; }
   .contact__wrapper {
     display: flex; }
-
-.banner__details p {
-  margin: 2rem 0; }

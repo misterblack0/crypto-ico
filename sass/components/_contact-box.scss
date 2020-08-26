@@ -1,12 +1,11 @@
 .contact {
   &__box {
-    width: 30%;
-    //  background-color: darkkhaki;
+    width: 42%;
 
     & ul li:not(:last-child) {
       border-bottom: 1px solid #4a28a9;
-      margin-bottom: 30px;
-      padding-bottom: 30px;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
     }
   }
 
@@ -15,7 +14,7 @@
     align-items: center;
 
     &--icon {
-      margin-right: 10px;
+      margin-right: 1rem;
     }
 
     &--content h3 {

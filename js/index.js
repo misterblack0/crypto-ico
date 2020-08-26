@@ -98,3 +98,25 @@ for (i = 0; i < acc.length; i++) {
     }
   });
 }
+
+
+
+
+
+
+
+
+/* Sticky navbar */
+
+/* window.onscroll = function() {myFunction();};
+
+var navbar = document.querySelector("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("nav-sticky");
+  } else {
+    navbar.classList.remove("nav-sticky");
+  }
+} */

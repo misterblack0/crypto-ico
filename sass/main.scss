@@ -33,7 +33,8 @@
   "components/accordion",
   "components/tabs",
   "components/contact-box",
-  "components/contact-form";
+  "components/contact-form",
+  "components/footer";
 
   // 7. Utilities
   @import
@@ -42,10 +43,6 @@
   // 8. Tools
   @import
   "tools/center";
-
-  // 9. Layout
-@import
-  "layout/main";
 
 @import
 "shame";

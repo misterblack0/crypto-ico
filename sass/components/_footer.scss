@@ -1,0 +1,15 @@
+footer {
+  height: 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 1.5rem;
+
+  & p {
+    margin-left: 4rem;
+  }
+
+  &__social-media {
+    display: flex;
+  }
+}

@@ -15,14 +15,14 @@
 }
 
 @media (min-width: 800px) {
-  .contact__form {
+  .contact__wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 5rem;
   }
 
-  .contact__form--input,
-  .contact__form button {
-    grid-column: 1 / 3;
+  .contact__form {
+    display: grid;
+    grid-gap: 0.7rem;
   }
 }

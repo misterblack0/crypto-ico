@@ -15,7 +15,7 @@
   <body>
     <!-- Header start -->
     <header>
-      <div class="container">
+      <div class="container" id="navbar">
         <nav class="nav">
           <div class="nav__logo">
             <a href="#">
@@ -917,12 +917,14 @@
           <form class="contact__form">
             <input
               type="text"
+              id="name"
               class="contact__form--input"
               placeholder="Name"
               required=""
             />
             <input
               type="text"
+              id="email"
               class="contact__form--input"
               placeholder="Email"
               required=""
@@ -930,11 +932,13 @@
 
             <input
               type="text"
+              id="subject"
               class="contact__form--input"
               placeholder="Subject"
               required=""
             />
             <textarea
+            id="message"
               class="contact__form--input"
               rows="3"
               placeholder="Message"
@@ -947,6 +951,38 @@
       </div>
     </section>
     <!-- Contact section end -->
+
+    <!-- Footer section start -->
+    <div class="container">
+<footer>
+
+    <p>© All Rights Reserved</p>
+
+    <div class="footer__social-media">
+      <a href="#">
+        <svg class="icon-footer">
+          <use xlink:href="img/sprite.svg#icon-social-facebook"></use>
+        </svg>
+      </a>
+
+      <a href="#">
+        <svg class="icon-footer"">
+          <use xlink:href="img/sprite.svg#icon-social-twitter"></use>
+        </svg>
+      </a>
+
+      <a href="#">
+        <svg class="icon-footer"">
+          <use xlink:href="img/sprite.svg#icon-social-linkedin"></use>
+        </svg>
+      </a>
+
+
+    </div>
+
+  </footer>
+</div>
+    <!-- Footer section end -->
 
     <script src="/js/index.js"></script>
   </body>
