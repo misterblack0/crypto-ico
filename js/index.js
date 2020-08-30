@@ -99,13 +99,6 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
-
-
-
-
-
-
 /* Sticky navbar */
 
 /* window.onscroll = function() {myFunction();};
