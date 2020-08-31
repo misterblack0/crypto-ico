@@ -21,7 +21,8 @@
 
  // 5. Elements
   @import
-  "elements/headings";
+  "elements/headings",
+  "elements/lists";
 
 // 6. Skeleton
 @import
@@ -36,6 +37,7 @@
   "components/tabs",
   "components/contact-box",
   "components/contact-form",
+  "components/navbar",
   "components/footer";
 
   // 7. Utilities

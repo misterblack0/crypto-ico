@@ -1,7 +1,5 @@
 .contact__form {
   width: 100%;
-  
- 
   padding: 0 1.5rem;
   &-input {
     background: #4a28a9;
@@ -15,4 +13,8 @@
     outline: none;
     transition: border-color 0.15s ease-in-out box-shadow 0.15s ease-in-out;
   }
+}
+
+.contact__form textarea::placeholder {
+  padding-top: 1rem;
 }
