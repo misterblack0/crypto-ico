@@ -158,6 +158,11 @@ header {
   width: 100wh;
   background: url(/img/bg.jpg) no-repeat; }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 80vh;
+    width: 100wh; } }
+
 .banner {
   height: 100%;
   padding-top: 17rem;
@@ -171,6 +176,13 @@ header {
       margin: 2rem 0; }
   .banner__main-img {
     width: 50%; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+    padding-top: 2rem;
+    flex-direction: column; }
+    .banner__main-img {
+      padding-top: 5rem; } }
 
 .about {
   width: 100%;
@@ -307,6 +319,11 @@ header {
   width: 100wh;
   background: url(/img/bg.jpg) no-repeat; }
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 80vh;
+    width: 100wh; } }
+
 .banner {
   height: 100%;
   padding-top: 17rem;
@@ -320,6 +337,13 @@ header {
       margin: 2rem 0; }
   .banner__main-img {
     width: 50%; }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .banner {
+    padding-top: 2rem;
+    flex-direction: column; }
+    .banner__main-img {
+      padding-top: 5rem; } }
 
 .about {
   width: 100%;
